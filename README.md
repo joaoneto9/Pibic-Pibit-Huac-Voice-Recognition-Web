@@ -1,5 +1,5 @@
 # Pibic-Pibit-Huac-Voice-Recognition-Web
----
+
 - [Instalando das Dependencias](#Instalacao-das-Dependencias)
 - [Como Rodar a aplicacao e informacoes do IP e da Porta](#Como-Rodar-a-aplicacao-e-informacoes-do-IP-e-da-Porta)
 - [Documentacao das consulta ao Backend](#Documentacao-das-consulta-ao-Backend)
@@ -68,7 +68,7 @@ Apos a inicializacao da aplicacao, a aplicacao estara rodando no `localhost` na 
 ### Documentacao das consulta ao Backend
 
 Para realizar a requisição ao backend, é necessário compreender que o envio de dados em formato Blob 
-(objetos JavaScript que representam arquivos binários, como o .webm neste contexto) exige o uso do objeto FormData.
+(objetos JavaScript que representam arquivos binários, como o `.webm` neste contexto) exige o uso do objeto FormData.
 
 <img width="627" height="473" alt="image" src="https://github.com/user-attachments/assets/b6e9315f-1005-4b14-8206-a65a99f54516" />
 
