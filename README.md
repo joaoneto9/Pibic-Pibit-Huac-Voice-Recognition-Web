@@ -1,39 +1,61 @@
-# Voice-Recognition-React-Web
+# Pibic-Pibit-Huac-Voice-Recognition-Web
 
-- [Instalando as dependências](#instalando-as-dependências)
-- [Rodando a aplicação](#rodando-a-aplicação)
+Aplicacao web desenvolvida para transcrissoes de audio, aonde buscamos entender o funcionamento de requisicoes
+web com audios e como a gerar um fluxograma concreto dessa informacao ate a obtencao do texto transcrito.
 
-## instalando as dependências
+### Instalacao das Dependencias
 
-#### instalando o node.js e o npm
+1. Este projeto exige versões específicas do ambiente de execução para garantir a compatibilidade das dependências.
+Versões Mínimas
 
-Linux (Debian/Ubuntu e derivados):
+      Node.js: v20.0.0 (LTS) ou superior
+  
+      npm: v10.0.0 ou superior
+
+2. Instalação ou Atualização do Node.js
+Caso não possua o NVM instalado:
+
+**O nvm (Node Version Manager) é essencial para gerenciar versões sem conflitos de permissão.**
+
+**Windows: Baixe e execute o nvm-setup.exe em [nvm-setup.exe](https://github.com/coreybutler/nvm-windows/releases)**
+
+**macOS/Linux: Instale via curl:**
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+```
+3. Com o NVM instalado:
+
+Execute os comandos para instalar e utilizar a versão estável mais recente:
+```
+nvm install --lts
+nvm use --lts
+```
+4. Atualização do npm
+
+Após garantir que o Node.js está na versão LTS, atualize o gerenciador de pacotes globalmente:
 
 ```
-instalação do Node.js e do npm:
-
-curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
-sudo apt install -y nodejs
+npm install -g npm@latest
 ```
 
-```
-teste se instalou corretamente:
+5. Instalando as dependencias da aplicacao:
 
-node -v -> v20.17.0 (resultado esperado)
-npm -v -> 10.5.2 (resultado esperado)
-```
-
-## Rodando a aplicação
-
-Va ate a pasta da aplicação
-
+Va ate o diretorio da aplicacao e rode o comando:
 ```
 cd ./web-voice-recognition
+npm install 
 ```
 
-E rode:
+### Como Rodar a aplicacao e informacoes do IP e Porta
 
+1. Rodando a aplicacao:
+
+Ja estando no diretorio - `./web-voice-recognition`- da aplicacao, rode:
 ```
 npm run dev
 ```
 
+2. Informacoes de IP e Porta
+
+Apos a inicializacao da aplicacao, a aplicacao estara rodando no `localhost` na porta `5173`:
+[http://localhost:5173/](http://localhost:5173/)
